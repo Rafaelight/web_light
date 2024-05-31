@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora ✊</title>
+    <link rel="stylesheet" href="assents/css/style.css">
+</head>
+<body>
+    
+    <form class="formulario">
+        <input type="text" id="valor-1" placeholder="Primer valor">
+        <input type="text" id="valor-2" placeholder="Segundo valor"><br><br>
+
+        <button type="button" onclick="sumar()">SUMAR</button>
+        <button type="button" onclick="restar()">RESTAR</button>
+        <button type="button" onclick="multiplicar()">MULTIPLICAR</button>
+        <button type="button" onclick="dividir()">DIVIDIR</button>
+    </form>
+
+    <p>Resultado:</p>
+    <input type="text" id="resultado" disabled>
+    <script type="text/javascript" src="assents/js/app.js"></script><br><br>
+
+    <button onclick="location.reload()">Refrescar página</button>
+    
+</body>
+</html>
